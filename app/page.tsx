@@ -21,18 +21,18 @@ export default function Home() {
       </nav>
 
       <main className="my-5">
-        <header className="flex flex-col md:flex-row items-center">
+        <header className="flex flex-col md:flex-row items-center gap-10">
           <div className="flex flex-col gap-4">
             <h1 className="uppercase text-[1.2rem] hidden md:block">Your Go-to Platform for 3D Printing Files</h1>
 
-            <h2 className="font-['Montserrat_Alternates'] font-bold md:text-[3.5rem]">Discover what's possible with 3D printing</h2>
+            <h2 className="font-['Montserrat_Alternates'] font-bold text-[2.4rem] md:text-[3.5rem]">Discover what's possible with 3D printing</h2>
 
-            <p className="text-[1.2rem] w-[60%]">
+            <p className="text-[1.4rem] md:text-[1.2rem]  md:w-[60%]">
               Join our community of creators and explore a vast library of
               user-submitted models.
             </p>
 
-            <span className="border-1 py-2 px-3 uppercase font-[500] w-[fit-content] cursor-pointer">Browse Models</span>
+            <span className="border-1 py-2 px-3 uppercase font-[500] w-[fit-content] text-[1.5rem] md:text-[1rem] cursor-pointer">Browse Models</span>
           </div>
 
           <div>
